@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_soap_message_function">
+    <sys_soap_message_function action="INSERT_OR_UPDATE">
+        <authentication_type/>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <certificate/>
+        <enable_mutual_auth>false</enable_mutual_auth>
+        <envelope><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v18="http://fedex.com/ws/track/v18">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v18:TrackRequest>
+         <v18:WebAuthenticationDetail>
+            <!--Optional:-->
+            <v18:ParentCredential>
+               <v18:Key>${ParentCredential.Key}</v18:Key>
+               <v18:Password>${ParentCredential.Password}</v18:Password>
+            </v18:ParentCredential>
+            <v18:UserCredential>
+               <v18:Key>${UserCredential.Key}</v18:Key>
+               <v18:Password>${UserCredential.Password}</v18:Password>
+            </v18:UserCredential>
+         </v18:WebAuthenticationDetail>
+         <v18:ClientDetail>
+            <v18:AccountNumber>${ClientDetail.AccountNumber}</v18:AccountNumber>
+            <v18:MeterNumber>${ClientDetail.MeterNumber}</v18:MeterNumber>
+            <!--Optional:-->
+            <v18:IntegratorId>${ClientDetail.IntegratorId}</v18:IntegratorId>
+            <!--Optional:-->
+            <v18:Localization>
+               <v18:LanguageCode>${Localization.LanguageCode}</v18:LanguageCode>
+               <!--Optional:-->
+               <v18:LocaleCode>${Localization.LocaleCode}</v18:LocaleCode>
+            </v18:Localization>
+         </v18:ClientDetail>
+         <!--Optional:-->
+         <v18:TransactionDetail>
+            <!--Optional:-->
+            <v18:CustomerTransactionId>${TransactionDetail.CustomerTransactionId}</v18:CustomerTransactionId>
+            <!--Optional:-->
+            <v18:Localization>
+               <v18:LanguageCode>${Localization.LanguageCode}</v18:LanguageCode>
+               <!--Optional:-->
+               <v18:LocaleCode>${Localization.LocaleCode}</v18:LocaleCode>
+            </v18:Localization>
+         </v18:TransactionDetail>
+         <v18:Version>
+            <v18:ServiceId>trck</v18:ServiceId>
+            <v18:Major>18</v18:Major>
+            <v18:Intermediate>0</v18:Intermediate>
+            <v18:Minor>0</v18:Minor>
+         </v18:Version>
+         <!--Zero or more repetitions:-->
+         <v18:SelectionDetails>
+            <!--Optional:-->
+            <v18:CarrierCode>${SelectionDetails.CarrierCode}</v18:CarrierCode>
+            <!--Optional:-->
+            <v18:OperatingCompany>${SelectionDetails.OperatingCompany}</v18:OperatingCompany>
+            <!--Optional:-->
+            <v18:PackageIdentifier>
+               <v18:Type>${PackageIdentifier.Type}</v18:Type>
+               <v18:Value>${PackageIdentifier.Value}</v18:Value>
+            </v18:PackageIdentifier>
+            <!--Optional:-->
+            <v18:TrackingNumberUniqueIdentifier>${SelectionDetails.TrackingNumberUniqueIdentifier}</v18:TrackingNumberUniqueIdentifier>
+            <!--Optional:-->
+            <v18:ShipDateRangeBegin>${SelectionDetails.ShipDateRangeBegin}</v18:ShipDateRangeBegin>
+            <!--Optional:-->
+            <v18:ShipDateRangeEnd>${SelectionDetails.ShipDateRangeEnd}</v18:ShipDateRangeEnd>
+            <!--Optional:-->
+            <v18:ShipmentAccountNumber>${SelectionDetails.ShipmentAccountNumber}</v18:ShipmentAccountNumber>
+            <!--Optional:-->
+            <v18:SecureSpodAccount>${SelectionDetails.SecureSpodAccount}</v18:SecureSpodAccount>
+            <!--Optional:-->
+            <v18:Destination>
+               <!--Zero or more repetitions:-->
+               <v18:StreetLines>${Destination.StreetLines}</v18:StreetLines>
+               <!--Optional:-->
+               <v18:City>${Destination.City}</v18:City>
+               <!--Optional:-->
+               <v18:StateOrProvinceCode>${Destination.StateOrProvinceCode}</v18:StateOrProvinceCode>
+               <!--Optional:-->
+               <v18:PostalCode>${Destination.PostalCode}</v18:PostalCode>
+               <!--Optional:-->
+               <v18:UrbanizationCode>${Destination.UrbanizationCode}</v18:UrbanizationCode>
+               <!--Optional:-->
+               <v18:CountryCode>${Destination.CountryCode}</v18:CountryCode>
+               <!--Optional:-->
+               <v18:CountryName>${Destination.CountryName}</v18:CountryName>
+               <!--Optional:-->
+               <v18:Residential>${Destination.Residential}</v18:Residential>
+               <!--Optional:-->
+               <v18:GeographicCoordinates>${Destination.GeographicCoordinates}</v18:GeographicCoordinates>
+            </v18:Destination>
+            <!--Optional:-->
+            <v18:PagingDetail>
+               <!--Optional:-->
+               <v18:PagingToken>${PagingDetail.PagingToken}</v18:PagingToken>
+               <!--Optional:-->
+               <v18:NumberOfResultsPerPage>${PagingDetail.NumberOfResultsPerPage}</v18:NumberOfResultsPerPage>
+            </v18:PagingDetail>
+            <!--Optional:-->
+            <v18:CustomerSpecifiedTimeOutValueInMilliseconds>${SelectionDetails.CustomerSpecifiedTimeOutValueInMilliseconds}</v18:CustomerSpecifiedTimeOutValueInMilliseconds>
+         </v18:SelectionDetails>
+         <!--Optional:-->
+         <v18:TransactionTimeOutValueInMilliseconds>${TrackRequest.TransactionTimeOutValueInMilliseconds}</v18:TransactionTimeOutValueInMilliseconds>
+         <!--Zero or more repetitions:-->
+         <v18:ProcessingOptions>${TrackRequest.ProcessingOptions}</v18:ProcessingOptions>
+      </v18:TrackRequest>
+   </soapenv:Body>
+</soapenv:Envelope>]]></envelope>
+        <function_name>track</function_name>
+        <key_store/>
+        <key_store_alias/>
+        <key_store_password/>
+        <lock>false</lock>
+        <protocol_profile/>
+        <qualified_name>Tracking [ track ]</qualified_name>
+        <soap_action>http://fedex.com/ws/track/v18/track</soap_action>
+        <soap_endpoint>https://wsbeta.fedex.com:443/web-services/track</soap_endpoint>
+        <soap_message display_value="Tracking">ebe4348b1bfd5810daab54242a4bcbcb</soap_message>
+        <strip_whitespace>false</strip_whitespace>
+        <sys_class_name>sys_soap_message_function</sys_class_name>
+        <sys_created_by>hustle</sys_created_by>
+        <sys_created_on>2020-07-08 18:33:05</sys_created_on>
+        <sys_id>8815b88b1bfd5810daab54242a4bcb56</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>track</sys_name>
+        <sys_package display_value="FedEx" source="x_snc_fedex_1">d33168431bbd5810daab54242a4bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FedEx">d33168431bbd5810daab54242a4bcba5</sys_scope>
+        <sys_update_name>sys_soap_message_function_8815b88b1bfd5810daab54242a4bcb56</sys_update_name>
+        <sys_updated_by>hustle</sys_updated_by>
+        <sys_updated_on>2020-07-08 18:33:05</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_ws_security>false</use_ws_security>
+        <ws_security_type/>
+        <ws_security_username_profile/>
+        <ws_security_x509_profile/>
+    </sys_soap_message_function>
+</record_update>

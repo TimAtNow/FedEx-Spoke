@@ -1,0 +1,1591 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <active>true</active>
+        <annotation>Validate Shipping Address</annotation>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="Prepare Shipment">405220c31bbd5810daab54242a4bcbcc</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Validate a proposed shipping address.</description>
+        <ih_action>false</ih_action>
+        <internal_name>validate_address</internal_name>
+        <label_cache>[{"name":"{{action.address_1}}","label":"action➛Address 1","type":"action","ref":""},{"name":"{{action.address_2}}","label":"action➛Address 2","type":"action","ref":""},{"name":"{{action.city}}","label":"action➛City","type":"action","ref":""},{"name":"{{action.state}}","label":"action➛State","type":"action","ref":""},{"name":"{{action.postal_code}}","label":"action➛Postal Code","type":"action","ref":""},{"name":"{{action.country}}","label":"action➛Country","type":"action","ref":""}]</label_cache>
+        <latest_snapshot>1573e4071bbd5810daab54242a4bcb2b</latest_snapshot>
+        <master_snapshot>6973e4071bbd5810daab54242a4bcb77</master_snapshot>
+        <name>Validate Address</name>
+        <natlang/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-08 17:14:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>eb13acc31bbd5810daab54242a4bcb45</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Validate Address</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="FedEx" source="x_snc_fedex_1">d33168431bbd5810daab54242a4bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FedEx">d33168431bbd5810daab54242a4bcba5</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_eb13acc31bbd5810daab54242a4bcb45</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-08 17:16:12</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=eb13acc31bbd5810daab54242a4bcb45"/>
+    <sys_variable_value action="delete_multiple" query="document_key=eb13acc31bbd5810daab54242a4bcb45"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>eb13acc31bbd5810daab54242a4bcb45</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-08 17:16:07</sys_created_on>
+        <sys_id>ec73a4071bbd5810daab54242a4bcb95</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-08 17:16:07</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">0a5324071bbd5810daab54242a4bcb22</variable>
+    </sys_variable_value>
+    <sys_hub_action_input action="delete_multiple" query="model=eb13acc31bbd5810daab54242a4bcb45^sys_idNOT IN4253e0071bbd5810daab54242a4bcbdc,7d53e0071bbd5810daab54242a4bcbcf,8a5324071bbd5810daab54242a4bcb0d,c253e0071bbd5810daab54242a4bcbe2,f953acc31bbd5810daab54242a4bcbe0,fd53e0071bbd5810daab54242a4bcbd5"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=45746b37-16a9-43dd-a814-90b3383e4168</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>state</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>State</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Validate Address">eb13acc31bbd5810daab54242a4bcb45</model>
+        <model_id>eb13acc31bbd5810daab54242a4bcb45</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_eb13acc31bbd5810daab54242a4bcb45</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-08 17:15:40</sys_created_on>
+        <sys_id>4253e0071bbd5810daab54242a4bcbdc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="FedEx">d33168431bbd5810daab54242a4bcba5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-08 17:15:40</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=bca82844-9062-453a-999e-8115f2b03306</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>address_2</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Address 2</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Validate Address">eb13acc31bbd5810daab54242a4bcb45</model>
+        <model_id>eb13acc31bbd5810daab54242a4bcb45</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_eb13acc31bbd5810daab54242a4bcb45</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-08 17:15:40</sys_created_on>
+        <sys_id>7d53e0071bbd5810daab54242a4bcbcf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="FedEx">d33168431bbd5810daab54242a4bcba5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-08 17:15:40</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=163f8bde-9bf1-49ab-9b70-1be5252c9df6</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>country</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Country</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Validate Address">eb13acc31bbd5810daab54242a4bcb45</model>
+        <model_id>eb13acc31bbd5810daab54242a4bcb45</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_eb13acc31bbd5810daab54242a4bcb45</name>
+        <next_element/>
+        <order>6</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-08 17:15:40</sys_created_on>
+        <sys_id>8a5324071bbd5810daab54242a4bcb0d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="FedEx">d33168431bbd5810daab54242a4bcba5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-08 17:15:40</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=a4ea5098-66c9-4c47-bcf5-670e84f08edd</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>postal_code</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Postal Code</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Validate Address">eb13acc31bbd5810daab54242a4bcb45</model>
+        <model_id>eb13acc31bbd5810daab54242a4bcb45</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_eb13acc31bbd5810daab54242a4bcb45</name>
+        <next_element/>
+        <order>5</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-08 17:15:40</sys_created_on>
+        <sys_id>c253e0071bbd5810daab54242a4bcbe2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="FedEx">d33168431bbd5810daab54242a4bcba5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-08 17:15:40</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=b61aa0a1-5839-40e3-9ab2-903ec47d70e8</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>address_1</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Address 1</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Validate Address">eb13acc31bbd5810daab54242a4bcb45</model>
+        <model_id>eb13acc31bbd5810daab54242a4bcb45</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_eb13acc31bbd5810daab54242a4bcb45</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-08 17:15:40</sys_created_on>
+        <sys_id>f953acc31bbd5810daab54242a4bcbe0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="FedEx">d33168431bbd5810daab54242a4bcba5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-08 17:15:40</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=c16072ec-216c-4c8f-a082-b2e946696188</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>city</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>City</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Validate Address">eb13acc31bbd5810daab54242a4bcb45</model>
+        <model_id>eb13acc31bbd5810daab54242a4bcb45</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_eb13acc31bbd5810daab54242a4bcb45</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-08 17:15:40</sys_created_on>
+        <sys_id>fd53e0071bbd5810daab54242a4bcbd5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="FedEx">d33168431bbd5810daab54242a4bcba5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-08 17:15:40</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_output action="delete_multiple" query="model=eb13acc31bbd5810daab54242a4bcb45^sys_idNOT IN0a5324071bbd5810daab54242a4bcb22"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=96283f44-18f5-45bd-9407-146e8934d38d</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>variable</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Valid</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Validate Address">eb13acc31bbd5810daab54242a4bcb45</model>
+        <model_id>eb13acc31bbd5810daab54242a4bcb45</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_eb13acc31bbd5810daab54242a4bcb45</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-08 17:15:40</sys_created_on>
+        <sys_id>0a5324071bbd5810daab54242a4bcb22</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="FedEx">d33168431bbd5810daab54242a4bcba5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-08 17:15:40</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_eb13acc31bbd5810daab54242a4bcb45^sys_idNOT IN065324071bbd5810daab54242a4bcb0c,4e53e0071bbd5810daab54242a4bcbe0,7953e0071bbd5810daab54242a4bcbd4,865324071bbd5810daab54242a4bcb12,ca53e0071bbd5810daab54242a4bcbda,f553e0071bbd5810daab54242a4bcbce"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>postal_code</element>
+        <help/>
+        <hint/>
+        <label>Postal Code</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_eb13acc31bbd5810daab54242a4bcb45</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-08 17:15:40</sys_created_on>
+        <sys_id>065324071bbd5810daab54242a4bcb0c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="FedEx" source="x_snc_fedex_1">d33168431bbd5810daab54242a4bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FedEx">d33168431bbd5810daab54242a4bcba5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-08 17:15:40</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>state</element>
+        <help/>
+        <hint/>
+        <label>State</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_eb13acc31bbd5810daab54242a4bcb45</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-08 17:15:40</sys_created_on>
+        <sys_id>4e53e0071bbd5810daab54242a4bcbe0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="FedEx" source="x_snc_fedex_1">d33168431bbd5810daab54242a4bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FedEx">d33168431bbd5810daab54242a4bcba5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-08 17:15:40</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>address_2</element>
+        <help/>
+        <hint/>
+        <label>Address 2</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_eb13acc31bbd5810daab54242a4bcb45</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-08 17:15:40</sys_created_on>
+        <sys_id>7953e0071bbd5810daab54242a4bcbd4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="FedEx" source="x_snc_fedex_1">d33168431bbd5810daab54242a4bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FedEx">d33168431bbd5810daab54242a4bcba5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-08 17:15:40</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>country</element>
+        <help/>
+        <hint/>
+        <label>Country</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_eb13acc31bbd5810daab54242a4bcb45</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-08 17:15:40</sys_created_on>
+        <sys_id>865324071bbd5810daab54242a4bcb12</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="FedEx" source="x_snc_fedex_1">d33168431bbd5810daab54242a4bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FedEx">d33168431bbd5810daab54242a4bcba5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-08 17:15:40</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>city</element>
+        <help/>
+        <hint/>
+        <label>City</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_eb13acc31bbd5810daab54242a4bcb45</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-08 17:15:40</sys_created_on>
+        <sys_id>ca53e0071bbd5810daab54242a4bcbda</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="FedEx" source="x_snc_fedex_1">d33168431bbd5810daab54242a4bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FedEx">d33168431bbd5810daab54242a4bcba5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-08 17:15:40</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>address_1</element>
+        <help/>
+        <hint/>
+        <label>Address 1</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_eb13acc31bbd5810daab54242a4bcb45</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-08 17:15:40</sys_created_on>
+        <sys_id>f553e0071bbd5810daab54242a4bcbce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="FedEx" source="x_snc_fedex_1">d33168431bbd5810daab54242a4bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FedEx">d33168431bbd5810daab54242a4bcba5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-08 17:15:40</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_eb13acc31bbd5810daab54242a4bcb45^sys_idNOT INce5324071bbd5810daab54242a4bcb27"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>variable</element>
+        <help/>
+        <hint/>
+        <label>Valid</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_eb13acc31bbd5810daab54242a4bcb45</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-08 17:15:40</sys_created_on>
+        <sys_id>ce5324071bbd5810daab54242a4bcb27</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="FedEx" source="x_snc_fedex_1">d33168431bbd5810daab54242a4bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FedEx">d33168431bbd5810daab54242a4bcba5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-08 17:15:40</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=eb13acc31bbd5810daab54242a4bcb45^sys_idNOT INca7328071bbd5810daab54242a4bcb10"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Validate Address">eb13acc31bbd5810daab54242a4bcb45</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"ca7328071bbd5810daab54242a4bcb10","name":"plan"}}</plan>
+        <snapshot>1573e4071bbd5810daab54242a4bcb2b</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-08 17:16:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ca7328071bbd5810daab54242a4bcb10</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-08 17:16:13</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <annotation>Validate Shipping Address</annotation>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="Prepare Shipment">405220c31bbd5810daab54242a4bcbcc</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Validate a proposed shipping address.</description>
+        <internal_name>validate_address</internal_name>
+        <label_cache>[{"name":"{{action.address_1}}","label":"action➛Address 1","type":"action","ref":""},{"name":"{{action.address_2}}","label":"action➛Address 2","type":"action","ref":""},{"name":"{{action.city}}","label":"action➛City","type":"action","ref":""},{"name":"{{action.state}}","label":"action➛State","type":"action","ref":""},{"name":"{{action.postal_code}}","label":"action➛Postal Code","type":"action","ref":""},{"name":"{{action.country}}","label":"action➛Country","type":"action","ref":""}]</label_cache>
+        <master>true</master>
+        <name>Validate Address</name>
+        <natlang/>
+        <outputs/>
+        <parent_action display_value="Validate Address">eb13acc31bbd5810daab54242a4bcb45</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-08 17:16:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6973e4071bbd5810daab54242a4bcb77</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="FedEx">d33168431bbd5810daab54242a4bcba5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-08 17:16:11</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=6973e4071bbd5810daab54242a4bcb77"/>
+    <sys_variable_value action="delete_multiple" query="document_key=6973e4071bbd5810daab54242a4bcb77"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>6973e4071bbd5810daab54242a4bcb77</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-08 17:16:12</sys_created_on>
+        <sys_id>f173e4071bbd5810daab54242a4bcbe7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-08 17:16:12</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">b973e4071bbd5810daab54242a4bcbde</variable>
+    </sys_variable_value>
+    <sys_hub_action_input action="delete_multiple" query="model=6973e4071bbd5810daab54242a4bcb77^sys_idNOT IN2973e4071bbd5810daab54242a4bcb7f,3d73e4071bbd5810daab54242a4bcbc9,6573e4071bbd5810daab54242a4bcb9e,6973e4071bbd5810daab54242a4bcb78,a973e4071bbd5810daab54242a4bcb85,e173e4071bbd5810daab54242a4bcb98"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=bca82844-9062-453a-999e-8115f2b03306</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>address_2</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Address 2</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Validate Address">6973e4071bbd5810daab54242a4bcb77</model>
+        <model_id>6973e4071bbd5810daab54242a4bcb77</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_6973e4071bbd5810daab54242a4bcb77</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-08 17:16:11</sys_created_on>
+        <sys_id>2973e4071bbd5810daab54242a4bcb7f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="FedEx">d33168431bbd5810daab54242a4bcba5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-08 17:16:11</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=163f8bde-9bf1-49ab-9b70-1be5252c9df6</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>country</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Country</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Validate Address">6973e4071bbd5810daab54242a4bcb77</model>
+        <model_id>6973e4071bbd5810daab54242a4bcb77</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_6973e4071bbd5810daab54242a4bcb77</name>
+        <next_element/>
+        <order>6</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-08 17:16:12</sys_created_on>
+        <sys_id>3d73e4071bbd5810daab54242a4bcbc9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="FedEx">d33168431bbd5810daab54242a4bcba5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-08 17:16:12</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=a4ea5098-66c9-4c47-bcf5-670e84f08edd</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>postal_code</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Postal Code</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Validate Address">6973e4071bbd5810daab54242a4bcb77</model>
+        <model_id>6973e4071bbd5810daab54242a4bcb77</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_6973e4071bbd5810daab54242a4bcb77</name>
+        <next_element/>
+        <order>5</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-08 17:16:12</sys_created_on>
+        <sys_id>6573e4071bbd5810daab54242a4bcb9e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="FedEx">d33168431bbd5810daab54242a4bcba5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-08 17:16:12</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=b61aa0a1-5839-40e3-9ab2-903ec47d70e8</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>address_1</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Address 1</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Validate Address">6973e4071bbd5810daab54242a4bcb77</model>
+        <model_id>6973e4071bbd5810daab54242a4bcb77</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_6973e4071bbd5810daab54242a4bcb77</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-08 17:16:11</sys_created_on>
+        <sys_id>6973e4071bbd5810daab54242a4bcb78</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="FedEx">d33168431bbd5810daab54242a4bcba5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-08 17:16:11</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=c16072ec-216c-4c8f-a082-b2e946696188</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>city</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>City</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Validate Address">6973e4071bbd5810daab54242a4bcb77</model>
+        <model_id>6973e4071bbd5810daab54242a4bcb77</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_6973e4071bbd5810daab54242a4bcb77</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-08 17:16:11</sys_created_on>
+        <sys_id>a973e4071bbd5810daab54242a4bcb85</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="FedEx">d33168431bbd5810daab54242a4bcba5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-08 17:16:11</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=45746b37-16a9-43dd-a814-90b3383e4168</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>state</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>State</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Validate Address">6973e4071bbd5810daab54242a4bcb77</model>
+        <model_id>6973e4071bbd5810daab54242a4bcb77</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_6973e4071bbd5810daab54242a4bcb77</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-08 17:16:12</sys_created_on>
+        <sys_id>e173e4071bbd5810daab54242a4bcb98</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="FedEx">d33168431bbd5810daab54242a4bcba5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-08 17:16:12</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_output action="delete_multiple" query="model=6973e4071bbd5810daab54242a4bcb77^sys_idNOT INb973e4071bbd5810daab54242a4bcbde"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=96283f44-18f5-45bd-9407-146e8934d38d</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>variable</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Valid</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Validate Address">6973e4071bbd5810daab54242a4bcb77</model>
+        <model_id>6973e4071bbd5810daab54242a4bcb77</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_6973e4071bbd5810daab54242a4bcb77</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-08 17:16:12</sys_created_on>
+        <sys_id>b973e4071bbd5810daab54242a4bcbde</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="FedEx">d33168431bbd5810daab54242a4bcba5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-08 17:16:12</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_6973e4071bbd5810daab54242a4bcb77^sys_idNOT IN2573e4071bbd5810daab54242a4bcb84,3973e4071bbd5810daab54242a4bcbce,6d73e4071bbd5810daab54242a4bcb96,a173e4071bbd5810daab54242a4bcb7e,b573e4071bbd5810daab54242a4bcbc8,ed73e4071bbd5810daab54242a4bcb9c"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>address_2</element>
+        <help/>
+        <hint/>
+        <label>Address 2</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_6973e4071bbd5810daab54242a4bcb77</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-08 17:16:11</sys_created_on>
+        <sys_id>2573e4071bbd5810daab54242a4bcb84</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="FedEx" source="x_snc_fedex_1">d33168431bbd5810daab54242a4bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FedEx">d33168431bbd5810daab54242a4bcba5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-08 17:16:11</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>country</element>
+        <help/>
+        <hint/>
+        <label>Country</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_6973e4071bbd5810daab54242a4bcb77</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-08 17:16:12</sys_created_on>
+        <sys_id>3973e4071bbd5810daab54242a4bcbce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="FedEx" source="x_snc_fedex_1">d33168431bbd5810daab54242a4bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FedEx">d33168431bbd5810daab54242a4bcba5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-08 17:16:12</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>city</element>
+        <help/>
+        <hint/>
+        <label>City</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_6973e4071bbd5810daab54242a4bcb77</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-08 17:16:11</sys_created_on>
+        <sys_id>6d73e4071bbd5810daab54242a4bcb96</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="FedEx" source="x_snc_fedex_1">d33168431bbd5810daab54242a4bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FedEx">d33168431bbd5810daab54242a4bcba5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-08 17:16:11</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>address_1</element>
+        <help/>
+        <hint/>
+        <label>Address 1</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_6973e4071bbd5810daab54242a4bcb77</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-08 17:16:11</sys_created_on>
+        <sys_id>a173e4071bbd5810daab54242a4bcb7e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="FedEx" source="x_snc_fedex_1">d33168431bbd5810daab54242a4bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FedEx">d33168431bbd5810daab54242a4bcba5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-08 17:16:11</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>postal_code</element>
+        <help/>
+        <hint/>
+        <label>Postal Code</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_6973e4071bbd5810daab54242a4bcb77</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-08 17:16:12</sys_created_on>
+        <sys_id>b573e4071bbd5810daab54242a4bcbc8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="FedEx" source="x_snc_fedex_1">d33168431bbd5810daab54242a4bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FedEx">d33168431bbd5810daab54242a4bcba5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-08 17:16:12</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>state</element>
+        <help/>
+        <hint/>
+        <label>State</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_6973e4071bbd5810daab54242a4bcb77</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-08 17:16:12</sys_created_on>
+        <sys_id>ed73e4071bbd5810daab54242a4bcb9c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="FedEx" source="x_snc_fedex_1">d33168431bbd5810daab54242a4bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FedEx">d33168431bbd5810daab54242a4bcba5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-08 17:16:12</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_6973e4071bbd5810daab54242a4bcb77^sys_idNOT IN7173e4071bbd5810daab54242a4bcbe4"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>variable</element>
+        <help/>
+        <hint/>
+        <label>Valid</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_6973e4071bbd5810daab54242a4bcb77</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-08 17:16:12</sys_created_on>
+        <sys_id>7173e4071bbd5810daab54242a4bcbe4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="FedEx" source="x_snc_fedex_1">d33168431bbd5810daab54242a4bcba5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FedEx">d33168431bbd5810daab54242a4bcba5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-08 17:16:12</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+</record_update>
